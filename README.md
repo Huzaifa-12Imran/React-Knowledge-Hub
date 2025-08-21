@@ -2,6 +2,8 @@
 
 A modern, responsive learning platform built with React and Vite. This multi-page application demonstrates practical web development skills through interactive features, clean UI/UX, and real-world functionality.
 
+## Live Demo
+https://huzaifa-12imran.github.io/React-Knowledge-Hub/
 ## What You'll Find Here
 
 This project showcases a complete React application with:
