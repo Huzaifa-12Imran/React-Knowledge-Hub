@@ -51,6 +51,8 @@ npm install
 npm run dev
 ```
 
+Or view the live demo at [https://huzaifa-12imran.github.io/React-Knowledge-Hub/](https://huzaifa-12imran.github.io/React-Knowledge-Hub/)
+
 Visit `http://localhost:5173` to see the app in action.
 
 ## Project Structure
