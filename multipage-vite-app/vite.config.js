@@ -4,5 +4,6 @@ import react from '@vitejs/plugin-react'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: "/React-Knowledge-Hub",
+  // Important for GitHub Pages project path
+  base: "/React-Knowledge-Hub/",
 });

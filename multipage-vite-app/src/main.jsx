@@ -24,7 +24,7 @@ function ScrollToTop() {
 const AppWithProviders = () => {
   return (
     <ThemeProvider>
-      <BrowserRouter>
+      <BrowserRouter basename="/React-Knowledge-Hub">
         <ScrollToTop />
         <Routes>
           <Route path="/" element={<App />}>

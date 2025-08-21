@@ -1,6 +1,6 @@
 {
   "name": "multipage-vite-app",
-  "homepage": "https://github.com/Huzaifa-12Imran.github.io/React-Knowledge-Hub.git",
+  "homepage": "https://Huzaifa-12Imran.github.io/React-Knowledge-Hub/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -15,7 +15,8 @@
   "dependencies": {
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
-    "react-router-dom": "^7.7.1"
+    "react-router-dom": "^7.7.1",
+    "gh-pages": "^6.1.1"
   },
   "devDependencies": {
     "@eslint/js": "^9.30.1",

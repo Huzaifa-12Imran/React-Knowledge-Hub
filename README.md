@@ -95,10 +95,26 @@ npm run preview
 
 The build process creates optimized static files ready for deployment to any hosting platform.
 
+## Deploying to GitHub Pages
+
+This project is configured for deployment to GitHub Pages:
+
+1. Ensure you have the `gh-pages` package installed:
+   ```bash
+   npm install gh-pages --save-dev
+   ```
+
+2. Deploy to GitHub Pages:
+   ```bash
+   npm run deploy
+   ```
+
+This will automatically build your project and deploy it to your GitHub Pages site. The deployment script is already configured in package.json.
+
+Note: For proper client-side routing on GitHub Pages, a custom 404.html file is included that redirects to index.html.
+
 ## License
 
 MIT License - feel free to use this code for learning or as a foundation for your own projects.
 
 ---
-
-*This project demonstrates practical React development skills including component architecture, state management, API integration, and modern web development practices.*
