@@ -3153,6 +3153,7 @@ svg {
   transform: translateX(100%);  
   transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   z-index: 999;
+  overflow-x: hidden;
 }
 
 .mobile-menu.open {
@@ -3184,6 +3185,9 @@ svg {
   background: rgba(255, 255, 255, 0.1);
   border-color: rgba(255, 255, 255, 0.2);
   transform: translateX(4px);
+}
+  body.mobile-menu-open {
+  overflow-x: hidden;
 }
 
 .mobile-nav-link.active {
